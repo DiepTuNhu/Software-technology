@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\FoodController;
 use App\Http\Controllers\Admin\ImageController;
@@ -8,6 +9,11 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Page\PageController;
 use App\Http\Controllers\User\LoginController;
 use Illuminate\Support\Facades\Route;
+=======
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\PageController;
+>>>>>>> ebe797942ebcf8a979540bc946870bbe5acacdfa
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +26,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::prefix('admin')->middleware('admin')->group(function(){
     //CATEGORY
     Route::get('/categories',[CategoryController::class,'index'])->name('categories.index');
@@ -78,3 +85,6 @@ Route::prefix('admin')->middleware('admin')->group(function(){
     //LOGIN
     Route::get('admin/login',[LoginController::class,'index'])->name('login');
     Route::post('admin/login/store',[LoginController::class,'store'])->name('login.store');
+=======
+Route::get('/',[PageController::class,'index'])->name('admin.index');
+>>>>>>> ebe797942ebcf8a979540bc946870bbe5acacdfa
