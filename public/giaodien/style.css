@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.two-line-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card_monan:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+h1{
+    font-family: 'Merienda', cursive;
+}
+.card_monan a{
+    text-decoration: none;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+/* FOOTER */
+#btn {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; /* Bo tròn nút */
+    transition: background-color 0.3s ease;
+  }
+  #icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  #btntop {
+  position: fixed;
+  bottom: 0; /* Đặt vị trí ở dưới cùng */
+  right: 0; /* Đặt vị trí bên phải */
+  width: 50px;
+  }
+  #backToTopBtn.hidden {
+    display: none;
+  }
+  #backToTopBtn {
+    margin-bottom: 10px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
