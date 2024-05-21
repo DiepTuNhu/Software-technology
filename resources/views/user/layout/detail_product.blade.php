@@ -36,7 +36,7 @@
                     <h2 class = "w3-left" style = "text-transform:uppercase; font-weight:bolder;">ĐỊA ĐIỂM PHỤC VỤ</h2>
                 </div>
                 <div class="w3-quarter" style="margin-bottom: 50px;">
-                    <a style="text-decoration:none" href="chitiet_diadiem.html">
+                    <a style="text-decoration:none" href="{{route('page.detail_service_point',['id'=>$food->servicePoint[0]->id])}}">
                         <div class="w3-container w3-row">
                             <img style="width:100%" src="admin/images/{{$food->servicePoint[0]->image}}">
                             <h6 class="card-title w3-center" style = "font-weight:bolder;"></h6>

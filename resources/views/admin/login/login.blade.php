@@ -50,9 +50,9 @@
           <div class="col-8">
             <div class="icheck-primary">
               <input type="checkbox" name="remember" id="remember">
-              <label for="remember">
+              {{-- <label for="remember">
                 Remember Me
-              </label>
+              </label> --}}
             </div>
           </div>
           <!-- /.col -->
