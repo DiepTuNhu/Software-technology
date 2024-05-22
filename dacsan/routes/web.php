@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\FoodController;
 use App\Http\Controllers\Admin\ImageController;
@@ -8,6 +12,14 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Page\PageController;
 use App\Http\Controllers\User\LoginController;
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
+=======
+=======
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\PageController;
+>>>>>>> ebe797942ebcf8a979540bc946870bbe5acacdfa
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +32,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
 Route::prefix('admin')->middleware('admin')->group(function(){
     //CATEGORY
     Route::get('/categories',[CategoryController::class,'index'])->name('categories.index');
@@ -77,4 +93,11 @@ Route::prefix('admin')->middleware('admin')->group(function(){
     Route::get('search',[PageController::class,'getSearch'])->name('page.search');
     //LOGIN
     Route::get('admin/login',[LoginController::class,'index'])->name('login');
+<<<<<<< HEAD
     Route::post('admin/login/store',[LoginController::class,'store'])->name('login.store');
+=======
+    Route::post('admin/login/store',[LoginController::class,'store'])->name('login.store');
+=======
+Route::get('/',[PageController::class,'index'])->name('admin.index');
+>>>>>>> ebe797942ebcf8a979540bc946870bbe5acacdfa
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a

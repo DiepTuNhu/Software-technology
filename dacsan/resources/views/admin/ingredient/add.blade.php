@@ -13,7 +13,11 @@
         <!-- left column -->
         <div class="col-md-12">
           <!-- jquery validation -->
+<<<<<<< HEAD
           <div class="card card-primary">
+=======
+          <div class="card card-white">
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
             <div class="card-header">
               @include('admin.alert')
             </div>
