@@ -13,7 +13,7 @@
         <!-- left column -->
         <div class="col-md-12">
           <!-- jquery validation -->
-          <div class="card card-primary">
+          <div class="card card-primary " >
             <div class="card-header">
                @include('admin.alert')
             </div>

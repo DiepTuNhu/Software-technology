@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="admin/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="admin/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="admin/dist/css/adminlte.css">
   <!-- summernote -->
   <link rel="stylesheet" href="admin/plugins/summernote/summernote-bs4.min.css">
   <!-- CodeMirror -->
