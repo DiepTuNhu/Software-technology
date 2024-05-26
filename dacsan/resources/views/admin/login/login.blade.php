@@ -50,9 +50,21 @@
           <div class="col-8">
             <div class="icheck-primary">
               <input type="checkbox" name="remember" id="remember">
+<<<<<<< HEAD
               {{-- <label for="remember">
                 Remember Me
               </label> --}}
+=======
+<<<<<<< HEAD
+              {{-- <label for="remember">
+                Remember Me
+              </label> --}}
+=======
+              <label for="remember">
+                Remember Me
+              </label>
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
+>>>>>>> 1df59350248c3687e03f94371caeeb96a4ab6128
             </div>
           </div>
           <!-- /.col -->
