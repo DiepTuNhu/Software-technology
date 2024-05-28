@@ -9,7 +9,11 @@
         </div>
         <div class="w3-row-padding">   
           @foreach ($service_point as $sp)            
+<<<<<<< HEAD
             <div class="w3-col w3-quarter card_monan" style="margin-bottom: 50px;">
+=======
+            <div class="w3-quarter card_monan" style="margin-bottom: 50px;">
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
                 <a href="{{route('page.detail_service_point',['id'=>$sp->id])}}" class="w3-hover-none">
                     <div class="w3-card-4 w3-white two-line-limit w3-round-large">
                         <img src="admin/images/{{$sp->image}}" alt="" style="width:100%">
@@ -21,6 +25,7 @@
                 </a>  
             </div>
             @endforeach
+<<<<<<< HEAD
  
         </div>
         
@@ -30,4 +35,9 @@
     
 </div>
 
+=======
+        </div>
+    </div>
+</div>
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
 @endsection

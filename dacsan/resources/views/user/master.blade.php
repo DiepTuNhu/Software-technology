@@ -11,10 +11,13 @@
         <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
         <link rel="stylesheet" href="giaodien/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-hvL8kSKjVBaUbZIq9r6K8pZ5PaWU2AEp+nS8Hr3NPd7iGqnM1PMR2D66g5y5f2Gg" crossorigin="anonymous"/>
+<<<<<<< HEAD
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+=======
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
           h1{

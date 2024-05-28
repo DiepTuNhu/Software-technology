@@ -26649,9 +26649,26 @@ body.text-sm .input-group-text {
   background: #454d55;
 }
 
+<<<<<<< HEAD
 
 .card-primary:not(.card-outline) > .card-header {
   background-color: #328ced;
+=======
+<<<<<<< HEAD
+
+.card-primary:not(.card-outline) > .card-header {
+  background-color: #328ced;
+=======
+<<<<<<< HEAD
+
+.card-primary:not(.card-outline) > .card-header {
+  background-color: #328ced;
+=======
+.card-primary:not(.card-outline) > .card-header {
+  background-color: #007bff;
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
+>>>>>>> 1df59350248c3687e03f94371caeeb96a4ab6128
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
 }
 
 .card-primary:not(.card-outline) > .card-header,
@@ -26664,7 +26681,19 @@ body.text-sm .input-group-text {
 }
 
 .card-primary.card-outline {
+<<<<<<< HEAD
   border-top: 3px solid #328ced;
+=======
+<<<<<<< HEAD
+  border-top: 3px solid #328ced;
+=======
+<<<<<<< HEAD
+  border-top: 3px solid #328ced;
+=======
+  border-top: 3px solid #007bff;
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
+>>>>>>> 1df59350248c3687e03f94371caeeb96a4ab6128
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
 }
 
 .card-primary.card-outline-tabs > .card-header a:hover {
@@ -26673,7 +26702,19 @@ body.text-sm .input-group-text {
 
 .card-primary.card-outline-tabs > .card-header a.active,
 .card-primary.card-outline-tabs > .card-header a.active:hover {
+<<<<<<< HEAD
   border-top: 3px solid #328ced;
+=======
+<<<<<<< HEAD
+  border-top: 3px solid #328ced;
+=======
+<<<<<<< HEAD
+  border-top: 3px solid #328ced;
+=======
+  border-top: 3px solid #007bff;
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
+>>>>>>> 1df59350248c3687e03f94371caeeb96a4ab6128
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
 }
 
 .bg-primary > .card-header .btn-tool,

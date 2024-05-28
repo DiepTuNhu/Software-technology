@@ -13,7 +13,19 @@
         <!-- left column -->
         <div class="col-md-12">
           <!-- jquery validation -->
+<<<<<<< HEAD
           <div class="card card-primary">
+=======
+<<<<<<< HEAD
+          <div class="card card-primary">
+=======
+<<<<<<< HEAD
+          <div class="card card-primary">
+=======
+          <div class="card card-white">
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
+>>>>>>> 1df59350248c3687e03f94371caeeb96a4ab6128
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
             <div class="card-header">
                @include('admin.alert')
             </div>

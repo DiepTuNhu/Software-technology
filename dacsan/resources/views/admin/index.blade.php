@@ -14,7 +14,19 @@
   <link rel="stylesheet" href="admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="admin/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
+<<<<<<< HEAD
   <link rel="stylesheet" href="admin/dist/css/adminlte.css">
+=======
+<<<<<<< HEAD
+  <link rel="stylesheet" href="admin/dist/css/adminlte.css">
+=======
+<<<<<<< HEAD
+  <link rel="stylesheet" href="admin/dist/css/adminlte.css">
+=======
+  <link rel="stylesheet" href="admin/dist/css/adminlte.min.css">
+>>>>>>> d11ceec2296ff6f7445fe8d4fb1716a7490ae76a
+>>>>>>> 1df59350248c3687e03f94371caeeb96a4ab6128
+>>>>>>> aad9120012ee8c98bea2552970dc4b57ae51951a
   <!-- summernote -->
   <link rel="stylesheet" href="admin/plugins/summernote/summernote-bs4.min.css">
   <!-- CodeMirror -->
