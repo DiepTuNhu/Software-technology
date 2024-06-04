@@ -26,6 +26,10 @@ h1{
     display: flex;
     align-items: center;
 }
+#menu a:hover{
+  text-decoration: none;
+
+}
 /* FOOTER */
 #btn {
     font-size: 25px;

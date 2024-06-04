@@ -7,7 +7,7 @@
         <div class="w3-panel w3-leftbar w3-border-green w3-theme-l2 w3-xxlarge w3-serif">
             @foreach ($foods as $key => $food)
                 @if ($key == 0)
-                    <h4 style="text-transform: uppercase;">
+                    <h4 style="text-transform: uppercase;" class="my-2">
                         {{$food->categories->name}}
                     </h4>
                 @endif
