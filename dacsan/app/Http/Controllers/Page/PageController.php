@@ -26,8 +26,13 @@ class PageController extends Controller
     }
     public function servicePoint()
     {
-        $service_point = ServicePoint::all();
-        return view('user.layout.service_point',compact('service_point'));
+        $service_point = ServicePoint::paginate(8);
+        //paginate(8);
+        // return view('user.layout.service_point', [
+        //     'service_point' => $service_point,
+        //     'i' => (request()->input('page', 1) - 1) * 8
+        // ]);
+        return view('user.layout.service_point',compact('service_point')); //->with('i',(request()->input('page',1)-1)*5);
     }
 
     public function food($id){

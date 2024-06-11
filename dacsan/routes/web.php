@@ -78,3 +78,4 @@ Route::prefix('admin')->middleware('admin')->group(function(){
     //LOGIN
     Route::get('admin/login',[LoginController::class,'index'])->name('login');
     Route::post('admin/login/store',[LoginController::class,'store'])->name('login.store');
+
